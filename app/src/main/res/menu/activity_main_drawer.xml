@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/user"
+            android:title="@string/menu_accaunt" />
+        <item
+            android:id="@+id/nav_bookmarks"
+            android:icon="@drawable/bookmarks_icon"
+            android:title="@string/menu_bookmarks" />
+        <item
+            android:id="@+id/nav_task_author"
+            android:icon="@drawable/tasks_line_icon"
+            android:title="@string/menu_author_tasks" />
+        <item
+            android:id="@+id/nav_task_community"
+            android:icon="@drawable/people_community_icon"
+            android:title="@string/menu_community_tasks" />
+
+    </group>
+</menu>
