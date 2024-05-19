@@ -9,7 +9,7 @@
         android:id="@+id/Out"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Выйти"
+        android:text="@string/out"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
