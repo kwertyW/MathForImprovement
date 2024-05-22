@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.google.android.material.navigation.NavigationView;
@@ -16,6 +17,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.mathematicsforimprovement.databinding.ActivityMainBinding;
+
+//import javax.xml.bind.JAXBContext;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,13 +44,13 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-        LinearLayout btn = findViewById(R.id.taskZero);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActi();
-            }
-        });
+//        LinearLayout btn = findViewById(R.id.taskZero);
+//        btn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActi();
+//            }
+//        });
 
     }
 
@@ -68,6 +71,33 @@ public class MainActivity extends AppCompatActivity {
 
     public void startActi(){
         Intent intent = new Intent(MainActivity.this, TaskActivity.class);
+        intent.putExtra("taskNumber", "0");
         startActivity(intent);
+    }
+
+    public void addTask(String taskNum) {
+//        LinearLayout rootLayout = new LinearLayout(this);
+//        rootLayout.setAndroid__layout_width("match_parent");
+//        rootLayout.setAndroid__layout_height("72dp");
+//// Установите остальные поля
+//
+//        ImageView imageView = new ImageView();
+//        imageView.("7dp");
+//// Установите остальные поля
+//        rootLayout.setImageView(imageView);
+//
+//        LinearLayout innerLayout = new LinearLayout();
+//// Создайте и установите TextView элементы
+//        rootLayout.setInnerLinearLayout(innerLayout);
+//
+//        try {
+//            JAXBContext context = JAXBContext.newInstance(LinearLayout.class);
+//            Marshaller marshaller = context.createMarshaller();
+//            marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+//            marshaller.marshal(rootLayout, System.out);
+//        } catch (JAXBException e) {
+//            e.printStackTrace();
+//        }
+
     }
 }
