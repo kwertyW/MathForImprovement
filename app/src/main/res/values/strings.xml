@@ -8,11 +8,19 @@
     <string name="action_settings">Settings</string>
 
 
-
-
     <string name="menu_accaunt">Аккаунт</string>
     <string name="menu_author_tasks">Авторские задачи</string>
     <string name="menu_community_tasks">Задачи от сообщества</string>
     <string name="menu_bookmarks">Закладки</string>
     <string name="out">Выйти</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gotIt">Понял</string>
+    <string name="Answer">Ответ</string>
+    <string name="sendAnswer">Ответить</string>
+    <string name="giveUp">сдатся</string>
+    <string name="Discription">Описание</string>
+    <string name="YouSure">Правельный ответ!</string>
+    <string name="YouNotSure">Не правельный ответ, правельный ответ -      </string>
+    <string name="nextTask">следующая задача</string>
 </resources>
